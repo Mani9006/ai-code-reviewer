@@ -1,0 +1,13 @@
+# CodeReview AI - Dependencies
+# No external runtime dependencies - uses only Python standard library
+# Python 3.9+ required
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+mypy>=1.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional dependencies
+# tomli>=2.0.0  # For Python < 3.11 TOML support
