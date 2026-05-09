@@ -495,6 +495,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Static Analysis-Backed Automated Code Review Suggestions**
+
+_An evaluation of AST-based pattern detection and cyclomatic complexity scoring on a 200-repo Python corpus_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** code review, static analysis, AST, cyclomatic complexity, automated review
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
