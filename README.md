@@ -490,3 +490,40 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">
   Built with Python and passion for clean code.
 </p>
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Source[Source Code] --> Parser[AST Parser]
+    Parser --> Walker[AST Walker]
+    Walker --> Rules[Rule Engine]
+    Rules --> R1[Style Checks]
+    Rules --> R2[Complexity]
+    Rules --> R3[Security Patterns]
+    R1 & R2 & R3 --> Issues[Issue Aggregator]
+    Issues --> Report[Markdown Report]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**79 passing**, **0 failing**, **0 skipped** (total 79, framework: pytest)
+
+## References & Further Reading
+
+- Aho, A. V., Lam, M. S., Sethi, R., & Ullman, J. D. (2006). *Compilers: Principles, Techniques, and Tools* (2nd ed.). Pearson.
+- McCabe, T. J. (1976). *A Complexity Measure.* IEEE TSE SE-2(4). [↗](https://ieeexplore.ieee.org/document/1702388)
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/ai-code-reviewer) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->
